@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		function factorial(n) {
+			if (n ==1)
+			{
+				return 1;
+			}
+			else
+			{
+				return n * factorial(n- 1);
+			}
+		}
+
+		var userstring = prompt("Number Please: ");
+		var usernum = parseInt(userstring, 10);
+
+		document.write(factorial(usernum) + "<br>");
+
+	</script>
+</body>
+</html>

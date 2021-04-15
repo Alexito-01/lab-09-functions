@@ -9,7 +9,9 @@
 			return n * 2
 		}
 
-		var usernum = prompt("Number Please: ");
+		var userstring = prompt("Number Please: ");
+		var usernum = parseInt(userstring, 10);
+		
 		console.log(double(usernum));
 	</script>
 </body>
